@@ -1,7 +1,9 @@
+import 'package:avacado_tech/screens/homepage/searchbar%20section/home_search_bar_section.dart';
 import 'package:avacado_tech/utils/constant/app_constant.dart';
 import 'package:flutter/material.dart';
 
-import 'search bar section/home_search_bar_section.dart';
+import 'carouselslirer section/home_carouselslider_section.dart';
+import 'categories section/categories_section.dart';
 
 class Homepage extends StatelessWidget {
   const Homepage({Key? key}) : super(key: key);
@@ -39,8 +41,9 @@ class Homepage extends StatelessWidget {
                 topLeft: Radius.circular(22), topRight: Radius.circular(22))),
         child: ListView(
           children: const [
-            HomeSearchbarsection(),
-            
+            HomeSearchbarSection(),
+            HomeCarouselSliderSection(),
+            HomeCategoriesSection()
           ],
         ),
       ),

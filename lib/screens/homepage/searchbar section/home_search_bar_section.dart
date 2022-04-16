@@ -2,8 +2,8 @@
 
 import 'package:flutter/material.dart';
 
-class HomeSearchbarsection extends StatelessWidget {
-  const HomeSearchbarsection({
+class HomeSearchbarSection extends StatelessWidget {
+  const HomeSearchbarSection({
     Key? key,
   }) : super(key: key);
 
